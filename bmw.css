@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+    margin: 0;
+}
+/*----Começo-Da-Nav----*/
+.container {
+
+    display: flex;
+    justify-content: center;
+
+
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(37, 37, 37);
+}
+
+.logo {
+    width: 150px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.nav {
+    display: flex;
+    justify-content: center;;
+
+}
+h1 {
+    color: rgb(211, 1, 1);
+    display: flex;
+    justify-content: center;
+}
+
+/*----Fim-Da-Nav----*/
+
+/*----Começo-Pseudo-Classes----*/
+.a:hover{
+    color: rgb(192, 192, 192);
+  
+}
+.a2:hover{
+    color: rgb(192, 192, 192);
+    
+}
+
+/*----Fim-Pseudo-Classes----*/
+
+.card-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+
+.flex {
+    width: 200px;
+    height: 200px;
+   
+    background-color: rgb(102, 102, 102);
+    border-radius: 10px;
+}   
+
+/*--comeco----do---primeiro---carro--*/
+
+.flex1{
+        width: 500px;
+       height: 360px;
+        background: linear-gradient(-45deg,rgb(0, 0, 0),rgb(109, 109, 109));
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction:column-reverse;
+        flex-wrap: wrap;
+       
+        
+       
+}
+.bmw-card1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.bmw1{
+    width: 200px;
+    height: 130px;
+    border-radius:10px ;
+    margin: 10px;
+    position: relative;
+   
+}
+
+.p-card{
+    display: flex;
+    justify-content: ;
+}
+strong{
+    color: #fff;
+        font-size: 30px;
+        font-weight: 900;
+        font-family: 'Bebas Neue', 'cursive';
+
+
+}
+
+/*--fim----do----primeiro----carro--*/
+
+/*--comeco---do---segundo---carro--*/
+
+.flex2 {
+    width: 500px;
+    height: 360px;
+    background: linear-gradient(-45deg, rgb(0, 0, 0), rgb(109, 109, 109));
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.bmw-card2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.bmw2 {
+    width: 200px;
+    height: 130px;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+.p-card2 {
+    display: flex;
+    
+}
+
+ /*--fim----do----Segundo----carro--*/
+
+/*--comeco---terceiro---carro--*/
+.flex3 {
+    width: 500px;
+    height: 360px;
+    background: linear-gradient(-45deg, rgb(0, 0, 0), rgb(109, 109, 109));
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.bmw-card3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.bmw3 {
+    width: 200px;
+    height: 130px;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+.p-card3 {
+    display: flex;
+
+}
+
+/*--Fim---terceiro---carro--*/
+
+/*--comeco---quarto---carro--*/
+
+.flex4 {
+    width: 500px;
+    height: 360px;
+    background: linear-gradient(-45deg, rgb(0, 0, 0), rgb(109, 109, 109));
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.bmw-card4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.bmw4{
+    width: 200px;
+    height: 130px;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+.p-card4 {
+    display: flex;
+    
+
+}
+
+/*--fim---quarto---carro--*/
+
+/*--comeco---quinto---carro--*/
+
+.flex5 {
+    width: 500px;
+    height: 360px;
+    background: linear-gradient(-45deg, rgb(0, 0, 0), rgb(109, 109, 109));
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.bmw-card5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.bmw5 {
+    width: 200px;
+    height: 130px;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+.p-card5 {
+    display: flex;
+
+
+}
+/*--fim---quinto---carro--*/
+
+@media screen and (max-width: 500px) {
+    
+    .logo{
+        width: 120px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    .flex1{
+        width: 250px;  
+    }
+    .flex2{
+        width: 250px;
+    }
+    .flex3{
+     width: 250px;
+    }
+    .flex4{
+        width: 250px;
+    }
+    .flex5{
+        width: 250px;
+    }
+    .card-flex{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

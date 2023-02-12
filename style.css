@@ -1,0 +1,204 @@
+
+*{
+    margin: 0;
+}
+.logo{
+    width: 200px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.h1{
+    color: rgb(211, 1, 1);
+    display: flex;
+    justify-content: center; 
+
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background: rgb(37, 37, 37);
+}
+.card-flex {
+    display: flex;
+   
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+/*--comeco--primeira--marca--*/
+.flex {
+    width: 200px;
+    height: 160px;
+    background: linear-gradient(-45deg, rgb(0, 0, 0), rgb(109, 109, 109));
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+
+
+}
+
+.bmw-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.bmw {
+    width: 100px;
+    border-radius: 10px;
+    margin: 10px;
+    
+
+
+}
+/*--fim---primeiro---marca--*/
+
+/*--comeco---segundo---marca--*/
+
+.flex2 {
+    width: 200px;
+    height: 160px;
+    background: linear-gradient(-45deg, rgb(0, 0, 0), rgb(109, 109, 109));
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.Gtr-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.Gtr {
+    width: 150px;
+    border-radius: 10px;
+    margin: 10px;
+
+
+
+}
+
+/*--fim---do---segundo---marca--*/
+
+/*--comeco---terceiro---marca--*/
+
+.flex3 {
+    width: 200px;
+    height: 160px;
+    background: linear-gradient(-45deg, rgb(0, 0, 0), rgb(109, 109, 109));
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+
+.Ferrari-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.Ferrari {
+    width: 250px;
+    border-radius: 10px;
+    margin: 10px;
+
+
+
+}
+
+/*--fim---terceiro---marca--*/
+
+/*--comeco---quarto---marca--*/
+
+.flex4 {
+    width: 200px;
+    height: 160px;
+    background: linear-gradient(-45deg, rgb(0, 0, 0), rgb(109, 109, 109));
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+
+
+}
+
+.Porsche-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.Porshe {
+    width: 300px;
+    border-radius: 10px;
+    margin: 10px;
+
+
+
+}
+
+/*--fim---quarto---marca--*/
+
+/*--comeco---quinto---carro--*/
+
+.flex5 {
+    width: 200px;
+    height: 160px;
+    background: linear-gradient(-45deg, rgb(0, 0, 0), rgb(109, 109, 109));
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+
+
+}
+
+.bentley-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.bentley {
+    width: 150px;
+    border-radius: 10px;
+    margin: 10px;
+
+
+
+}
+
+/*--fim---quinta---marca--*/
+
+
+@media screen and (max-width: 800px) {
+    
+.card-flex{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+}
+
